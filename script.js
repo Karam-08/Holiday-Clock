@@ -16,7 +16,7 @@ function addEvent() {
     const event = {
         name: eventName,
         date: new Date(eventDate),
-        id: Date.now()  // Unique ID for each event
+        id: Date.now()
     };
 
     // Adds the event to the list of events
